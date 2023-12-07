@@ -444,7 +444,7 @@ img {
 }
 
 .footer__social {
-    text-align: right;
+    margin-bottom: var(--mb-4);
 }
 
 .footer__icon {
@@ -462,29 +462,8 @@ img {
 .footer__copy {
     font-size: var(--smaller-font-size);
 }
-.footer {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px;
-    
-}
 
-.footer__address,
-.footer__contact,
-.footer__social {
-    flex: 1;
-    margin: 0 10px;
-}
 
-.footer__social {
-    text-align: right;
-}
-
-.footer__icon {
-    margin-left: 10px;
-    color: #333; /* Add your preferred icon color */
-}
 
 /* ===== MEDIA QUERIES=====*/
 @media screen and (max-width: 320px) {
@@ -535,6 +514,10 @@ img {
     }
     .contact__container {
         justify-items: center;
+    }
+    .contact {
+        background-color: #f4f4f4; /* Background color */
+        color: #333; /* Text color */
     }
 }
 
